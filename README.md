@@ -104,6 +104,10 @@ Your site navigation items, markup template below.
 ```
 
 
+Also you may want to customize the footer (mainly change the twitter username, or adding other social network links).
+You can do it by editing the `dextium/partials/footer.hbs` file
+
+
 ## Dextium addings description
 
 ###Asynchronous tag link loading
