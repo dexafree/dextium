@@ -366,7 +366,7 @@ module.exports = function(grunt) {
      */
     changelog: {
       options: {
-        github: 'oswaldoacauan/ghostium'
+        github: 'dexafree/dextium'
       }
     },
   });

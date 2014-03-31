@@ -1,3 +1,14 @@
+##DEXTIUM CHANGELOG
+
+<a name="v1.0.0">
+Initial release, with
+
+* Asynchronous tag link loading
+* Syntax highlight using Prettify
+* Disqus comments hidden by default and enabled after pressing a button
+
+##GHOSTIUM CHANGELOG
+
 <a name="v2.1.1"></a>
 ### v2.1.1 (2014-03-08)
 
