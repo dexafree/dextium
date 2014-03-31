@@ -21,9 +21,9 @@ The description below is a mixture from the original one and my addings.
 ## Table of contents
 
 * [Features](#features)
-* [Dextium addings](#dextium)
+* [Dextium addings](#dextium-addings-description)
 * [Installing](#installing)
-* [Syntax Highlight](#syntax)
+* [Syntax Highlight](#syntax-highlight)
 * [Configuring](#configuring)
 * [Roadmap](#roadmap)
 * [History](#history)
