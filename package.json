@@ -1,21 +1,21 @@
 {
-  "name": "ghostium",
-  "version": "2.1.1",
-  "description": "A Ghost theme focused on content based on Medium design/ux",
-  "url": "http://ghostium.oswaldoacauan.com/",
+  "name": "dextium",
+  "version": "1.0.0",
+  "description": "A Ghost 0.4.2 adapted theme, focused on content based on Medium design/ux, with ajax loading and tag support",
+  "url": "http://github.com/dexafree/dextium",
   "copyright": "2013",
   "license": "MIT",
   "author": {
-    "name": "Oswaldo Acauan",
-    "email": "hello@oswaldoacauan.com",
-    "url": "http://oswaldoacauan.com"
+    "name": "Dexafree",
+    "email": "contact@dexa-dev.com",
+    "url": "http://www.dexa-dev.com"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:oswaldoacauan/ghostium.git"
+    "url": "git@github.com:dexafree/dextium.git"
   },
   "bugs": {
-    "url": "https://github.com/oswaldoacauan/ghostium/issues"
+    "url": "https://github.com/dexafree/dextium/issues"
   },
   "keywords": [
     "ghost",
