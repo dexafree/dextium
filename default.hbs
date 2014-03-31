@@ -38,6 +38,7 @@
 
     <script src="{{asset 'js/8fe6056b.head-scripts.min.js'}}"></script>
 
+
     {{ghost_head}}
   </head>
   <body class="{{body_class}}">
@@ -58,20 +59,31 @@
     {{ghost_foot}}
 
     <script src="{{asset 'js/56c2364f.foot-scripts.min.js'}}"></script>
-<script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/prettify.js"></script>
-<script type="text/javascript">
-    var prettify = function() {
-        $('pre').each(function() {
-            var text = $(this).find('code').text();
-            if(text.match('^prettyprint+')) {
-                $(this).addClass(text.split('\n')[0]);
-                $(this).find('code').text(text.substring(text.indexOf("\n") + 1));
-            }
-        });
-        prettyPrint();
-    };
-    prettify();
-</script>
+    <script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/prettify.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript">
+        var prettify = function() {
+            $('pre').each(function() {
+                var text = $(this).find('code').text();
+                if(text.match('^prettyprint+')) {
+                    $(this).addClass(text.split('\n')[0]);
+                    $(this).find('code').text(text.substring(text.indexOf("\n") + 1));
+                }
+            });
+            prettyPrint();
+        };
+        prettify();
+    </script>
+
+    <script type="text/javascript">
+        var replaceTags = function() {
+            $('.tag').each(function() {
+                var text = $(this).attr('href');
+                $(this).attr('href', text.toLowerCase().replace(' ','-'));
+            });
+        };
+        replaceTags();
+    </script>
 
 
   </body>

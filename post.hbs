@@ -90,9 +90,8 @@ prettify();
           </div>
           <div id="disqus_thread"><form onsubmit="my.loadDisqus();return false;" class=formBlock>  <input class="disqusbut" type=submit value="Load Comments"></form></div>
           <script>
-          var disqus_shortname = "dexadev";
-          // provide the following in the template, if necessary
-          // var disqus_url = "http://yourghostblogdomainname/";
+          {{> custom/config}}
+
           var disqus_identifier = '{{post.id}}';
           var my = my || {};
           my.loadDisqus = function() {

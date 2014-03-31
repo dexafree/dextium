@@ -18,9 +18,11 @@
         </time>
       </li>
       {{#if tags}}
-      <li class="post-item-meta-item" data-pjax>
-        on {{tags}}
+      {{#foreach tags}}
+      <li class="post-item-meta-item">
+        <a href="{{@blog.url}}/tag/{{name}}" itemprop="url" data-pjax class="tag">{{name}}</a>
       </li>
+      {{/foreach}}
       {{/if}}
       <li class="post-item-meta-item">
         <a href="{{url}}#disqus_thread" data-pjax data-disqus-identifier="{{id}}"></a>
@@ -28,4 +30,3 @@
     </ul>
   </footer>
 </article>
-
