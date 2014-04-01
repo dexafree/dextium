@@ -54,3 +54,4 @@
     "postinstall": "bundle install && bower install"
   }
 }
+

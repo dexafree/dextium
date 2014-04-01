@@ -85,6 +85,18 @@
         replaceTags();
     </script>
 
+    <script type="text/javascript">
+    var makeAsync = function(){
+        var $link = $('a').each(function(){
+           var ref = $(this).attr('href');
+           if(ref.indexOf("{{@blog.url}}") != -1){
+              $(this).attr("data-pjax", "true");
+           }
+        });
+    };
+    makeAsync();
+    </script>
+
 
   </body>
 </html>
