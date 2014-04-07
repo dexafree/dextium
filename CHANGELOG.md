@@ -1,5 +1,11 @@
 ##DEXTIUM CHANGELOG
 
+<a name="v1.1.0">
+Fix release, with
+
+* CSS and Javascript fixes
+
+
 <a name="v1.0.0">
 Initial release, with
 
