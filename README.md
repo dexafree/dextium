@@ -110,7 +110,7 @@ You can do it by editing the `dextium/partials/footer.hbs` file
 
 ## Dextium addings description
 
-###Asynchronous tag link loading
+### Asynchronous tag link loading
 As Ghost 0.4.2 was released, one of the [main highlights](https://github.com/TryGhost/Ghost/tree/0.4.2) was the ability of retrieving post groups by selecting the tags.
 
 In Ghostium, nearly every link is loaded by using AJAX (Asynchronous Javascript And XML), which gives a very nice feel of speed and smooth loading processes.
@@ -124,10 +124,14 @@ I preferred the Google solution, [Prettify](https://code.google.com/p/google-cod
 
 To do that, I took [Arasthel's tutorial](http://blog.arasthel.com/syntax-highlight-en-ghost-definitivo/), which also explains how easily you can change the syntax theme.
 
-###Disqus comments hidden by default and enabled after pressing a button
+### Disqus comments hidden by default and enabled after pressing a button
 Disqus is a great tool which helps admins to easily integrate a comment platform in their web projects, but it also has a performance impact when the user is loading a web page (he has to load the Disqus javascript, all the comments, user avatars...)
 
 In order to solve that, I've integrated a "View comments" button which will prevent Disqus from loading before the button is pressed, so the page loading will be faster and smoother to the user.
+
+### Image expanding on click
+Lots of blogs have this feature, and I've adapted dextium in order to achieve this functionality.
+When you're reading a post, and want to see an image bigger, or at higher resolution, you only need to click it and it will open instantly expanded, leaving the rest of the post behind it.
 
 ## Syntax highlight
 If you want to put some code into your posts, and have it highlighted, you must declare it this way:

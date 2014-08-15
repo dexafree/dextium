@@ -1,5 +1,8 @@
 ##DEXTIUM CHANGELOG
 
+<a name="v.1.2.0">
+Included image expanding on click
+
 <a name="v1.1.0">
 Fix release, with
 
@@ -172,4 +175,3 @@ Initial release, with
 #### Bug Fixes
 
 * **grunt:** Add changelog taks config ([fce4af1a](http://github.com/oswaldoacauan/ghostium/commit/fce4af1aea1f1bc8cf0de4195a5b76f1e53fbc3a))
-
