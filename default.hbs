@@ -79,7 +79,7 @@
         var replaceTags = function() {
             $('.tag').each(function() {
                 var text = $(this).attr('href');
-                $(this).attr('href', text.toLowerCase().replace(' ','-'));
+                if(text) $(this).attr('href', text.toLowerCase().replace(' ','-'));
             });
         };
         replaceTags();
