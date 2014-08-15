@@ -68,7 +68,7 @@ pre[class^="prettyprint"] {
   width: auto;
   overflow: auto;
   /* opcional para scroll vertical */
-  max-height: 600px; 
+  max-height: 600px;
 }
 pre.nowrap code {
   white-space: pre;
@@ -83,4 +83,8 @@ padding-bottom: 20px;
 
 code{
   padding-left: 20px;
+}
+
+div.post-body img {
+    cursor: pointer; cursor: hand;
 }
