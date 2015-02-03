@@ -35,8 +35,11 @@
     <link rel="stylesheet" href="{{asset 'css/mycss.css'}}"/>
     <link rel="stylesheet" href="{{asset 'css/prettify.css'}}"/>
 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/prettify.js"></script>
 
     <script src="{{asset 'js/8fe6056b.head-scripts.min.js'}}"></script>
+
 
 
     {{ghost_head}}
@@ -59,51 +62,9 @@
     {{ghost_foot}}
 
     <script src="{{asset 'js/56c2364f.foot-scripts.min.js'}}"></script>
-    <script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/prettify.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script type="text/javascript">
-        var prettify = function() {
-            $('pre').each(function() {
-                var text = $(this).find('code').text();
-                if(text.match('^prettyprint+')) {
-                    $(this).addClass(text.split('\n')[0]);
-                    $(this).find('code').text(text.substring(text.indexOf("\n") + 1));
-                }
-            });
-            prettyPrint();
-        };
-        prettify();
+    style();
     </script>
-
-    <script type="text/javascript">
-        var replaceTags = function() {
-            $('.tag').each(function() {
-                var text = $(this).attr('href');
-                if(text) $(this).attr('href', text.toLowerCase().replace(' ','-'));
-            });
-        };
-        replaceTags();
-    </script>
-
-    <script type="text/javascript">
-    var makeAsync = function(){
-        var $link = $('a').each(function(){
-           var ref = $(this).attr('href');
-           if(ref.indexOf("{{@blog.url}}") != -1){
-              $(this).attr("data-pjax", "true");
-           }
-        });
-    };
-    makeAsync();
-    </script>
-
-    <script type="text/javascript">
-    var prepareImages = function(){
-        (function(e){function n(e){var n=(new Date).getTime();if(t==null||n>t+800){t=n;return false}else{return true}}var t;var r,i;window.fitImg=function(){var t=e("#simple-box img");e(t).css("max-width",e(window).width()-20);e(t).css("max-height",e(window).height()-40)};e("body").on("click","div.post-body img",function(t){if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){}else{e("#simple-box").remove();r=e(t.target).attr("src");i=e("<div id='simple-box' style='display:table;position:fixed;width:100%;height:calc(100% + 160px);height:calc(100vh + 160px);margin-top:-80px;z-index:999999;top:0;left:0;right:0;bottom:0;'><div style='background-color:rgba(0,0,0,0.7);display:table-cell;vertical-align:middle;text-align:center;top:0;bottom:0;left:0;right:0;width:100%;height:100%;'><img class='fade-in one fast' src='"+r+"' style='box-shadow:0 0 50px rgba(0,0,0,0.5);' onload='fitImg()'></div></div>");e("body").append(i)}});e("body").on("click","#simple-box",function(t){e("#simple-box").remove()})})(jQuery)
-    };
-    prepareImages();
-    </script>
-
 
   </body>
 </html>

@@ -1,10 +1,31 @@
 .disqusbut {
-background-color: #3A4145;
-color: #FFFFFF;
-border: none;
-font-size: 18px;
-outline: none;
-padding: 30px 100px;
-width: 100%;
+	background-color: #3A4145;
+	color: #FFFFFF;
+	border: none;
+	font-size: 18px;
+	outline: none;
+	padding: 30px 100px;
+	width: 100%;
 }
 
+.eta{
+	-webkit-transform: translateX(-50%);
+  	-ms-transform: translateX(-50%);
+  	transform: translateX(-50%);
+  	left: 50%;
+
+  	color:darkgray;
+  	text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 1px rgba(0, 0, 0, 0.5);
+
+	position: relative;
+	top: 10px;
+	right: 30px;
+	display: inline-block;
+	z-index: 999;
+	font-weight: 400;
+	font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	letter-spacing: -0.02em;
+	line-height: 44px;
+	white-space: nowrap;
+}

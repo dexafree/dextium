@@ -1,6 +1,6 @@
 {
   "name": "dextium",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A Ghost 0.4.2 adapted theme, focused on content based on Medium design/ux, with ajax loading and tag support",
   "url": "http://github.com/dexafree/dextium",
   "copyright": "2013",

@@ -1,15 +1,18 @@
 ##DEXTIUM CHANGELOG
 
-<a name="v.1.2.0">
+<a name="v.1.3.0"></a>
+Added reading time counter
+
+<a name="v.1.2.0"></a>
 Included image expanding on click
 
-<a name="v1.1.0">
+<a name="v1.1.0"></a>
 Fix release, with
 
 * CSS and Javascript fixes
 
 
-<a name="v1.0.0">
+<a name="v1.0.0"></a>
 Initial release, with
 
 * Asynchronous tag link loading

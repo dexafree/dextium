@@ -133,6 +133,10 @@ In order to solve that, I've integrated a "View comments" button which will prev
 Lots of blogs have this feature, and I've adapted dextium in order to achieve this functionality.
 When you're reading a post, and want to see an image bigger, or at higher resolution, you only need to click it and it will open instantly expanded, leaving the rest of the post behind it.
 
+### Reading time
+As Medium does, with Dextium you can have a little counter that estimates the reading time of your article.
+It's placed on top of the article, centered horizontally.
+
 ## Syntax highlight
 If you want to put some code into your posts, and have it highlighted, you must declare it this way:
 
